@@ -23,6 +23,6 @@ public class SqrtServiceTest {
         int expected = 8;
         int actual = service.calcSqrt(300, 100);
 
-Assertions.assertEquals(expected, actual);
+        Assertions.assertEquals(expected, actual);
     }
 }
